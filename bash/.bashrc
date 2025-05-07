@@ -10,6 +10,8 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias cocos='cd /mnt/c/Users/cocos'
+
 
 
 
@@ -52,12 +54,17 @@ eval "$(pyenv init --path)"
 . "$HOME/.cargo/env"
 
 
+
+# -------------------------------------
+
 ###### Lvim export
 
 export PATH="$HOME/.local/bin:$PATH"
 
-
+# -------------------------------------
 
 
 ###### Clipboard
 export DISPLAY=:0
+
+# -------------------------------------

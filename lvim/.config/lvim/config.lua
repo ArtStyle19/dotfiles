@@ -4,9 +4,7 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 --
 --
---
---
-
+--#################### COLORSCHEME
 lvim.transparent_window = true
 lvim.colorscheme = "blue" -- aurora - solarized flat - gruvbox-material
 -- lvim.colorscheme = "terafox" -- aurora - solarized flat - gruvbox-material
@@ -89,29 +87,3 @@ vim.g.clipboard = {
   },
   cache_enabled = 0,
 }
-
-
--- lvim.builtin.treesitter.ensure_installed = {
---   "lua", "cpp", "python", "json", "bash"
--- }
-lvim.builtin.treesitter.sync_install = false
-lvim.builtin.treesitter.highlight.enable = false
-
-
-
--- Fix LSP position_encoding warnings
-local default_capabilities = vim.lsp.protocol.make_client_capabilities()
--- default_capabilities.offsetEncoding = { "utf-16" }
-
-
--- default_capabilities.window= { "utf-16" }
-
-
--- Apply to specific LSPs (example: clangd and others)
-require("lvim.lsp.manager").setup("clangd", {
-  capabilities = default_capabilities,
-})
--- Add other LSPs here if needed, e.g.:
--- require("lvim.lsp.manager").setup("pyright", { capabilities = default_capabilities })
--- require("lvim.lsp.manager").setup("tsserver", { capabilities = default_capabilities })
-
