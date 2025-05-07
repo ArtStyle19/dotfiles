@@ -1,0 +1,10 @@
+[user]
+    name = Guillermo Olarte
+    email = lolmko0178@gmail.com
+
+[core]
+    editor = nvim
+    excludesfile = ~/.gitignore_global
+
+[init]
+	defaultBranch = main
