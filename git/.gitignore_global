@@ -1,0 +1,118 @@
+# ----------------
+# OS-Specific
+# ----------------
+# .DS_Store
+# Thumbs.db
+# ehthumbs.db
+# Desktop.ini
+# Icon?
+# ._*
+
+# ----------------
+# Python
+# ----------------
+__pycache__/
+# *.py[cod]
+# *$py.class
+# *.pyo
+# *.pyd
+# *.pyc
+
+# Virtual environments
+.env/
+.venv/
+venv/
+# ENV/
+# env.bak/
+# venv.bak/
+
+# Python packaging
+# build/
+# develop-eggs/
+# dist/
+# downloads/
+# eggs/
+# .eggs/
+# lib/
+# lib64/
+# parts/
+# sdist/
+# var/
+# *.egg-info/
+# .installed.cfg
+# *.egg
+
+# pipenv / poetry / pyright
+# Pipfile.lock
+# poetry.lock
+# .mypy_cache/
+# .pytest_cache/
+# .tox/
+# .coverage
+# htmlcov/
+# .cache/
+# .pyre/
+# .pytype/
+# .dmypy.json
+
+# ----------------
+# Jupyter
+# ----------------
+# .ipynb_checkpoints/
+# *.ipynb~
+
+# ----------------
+# Editors & IDEs
+# ----------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.kate-swp
+*.komodoproject
+*.editorconfig~
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+.netrwhist
+*~
+
+# Emacs
+# *~
+# \#*\#
+# .\#*
+
+# ----------------
+# Logs / Dumps
+# ----------------
+# *.log
+# *.out
+# *.bak
+# *.tmp
+# *.orig
+# *.old
+# *.err
+
+# ----------------
+# Node.js (just in case)
+# ----------------
+node_modules/
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# package-lock.json
+# .pnp.*
+# .pnp
+
+# ----------------
+# Dotfiles/Meta
+# ----------------
+# *.lock
+# .lock-wscript
+# .envrc
+*.env
+*.local
+
