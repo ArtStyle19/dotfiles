@@ -1,0 +1,65 @@
+# Colors (Solarized Osaka)
+# Source https://github.com/craftzdog/solarized-osaka.nvim
+
+
+[colors.primary]
+  # Default colors
+    background = '#001213'
+    # background = '0x002221'
+    # foreground = '#ffffff'
+    foreground = '0xe6f8f8'
+
+# Default colors
+
+#[colors.primary]
+
+# background = '#001a1d'
+
+# foreground = '#839496'
+
+# Normal colors
+[colors.normal]
+black   = '#073642'
+red     = '#dc322f'
+green   = '#00ff11'
+yellow  = '#b58900'
+blue    = '#268bd2'
+magenta = '#d33682'
+cyan    = '#2aa198'
+white   = '#eee8d5'
+
+# Bright colors
+[colors.bright]
+black   = '#4c4c4c'
+red     = '#cb4b16'
+green   = '#586e75'
+yellow  = '#657b83'
+blue    = '#839496'
+magenta = '#6c71c4'
+cyan    = '#93a1a1'
+white   = '#fdf6e3'
+
+
+#### Fira Code Font
+
+[font]
+size = 12
+
+[font.normal]
+family = "Hack Nerd Font"
+style = "Regular"
+
+[font.bold]
+family = "Fira Code"
+style = "Bold"
+
+[font.italic]
+family = "Fira Code"
+style = "Italic"
+
+
+
+[window]
+# opacity = 0.5
+padding = { x = 40, y = 35}
+
