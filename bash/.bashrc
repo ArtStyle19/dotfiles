@@ -103,6 +103,8 @@ export TERM="xterm-256color"
 ###################### tmux 
 pre="代表"
 
+session_name="$pre - vicari"
+
 
 # Auto-start tmux session named 'vicari-home' if not already in tmux
 if [ -z "$TMUX" ]; then
@@ -113,16 +115,23 @@ if [ -z "$TMUX" ]; then
         else
             tmux attach -t "$session_name"
         fi
-    else
-        session_name="$pre - vicari"
-        if ! tmux has-session -t "$session_name" 2>/dev/null; then
-            tmux new-session -s "$session_name"
-        else
-            tmux attach -t "$session_name"
+#     else
+#         session_name="$pre - vicari"
+#         if ! tmux has-session -t "$session_name" 2>/dev/null; then
+#             tmux new-session -s "$session_name"
+#         else
+#             tmux attach -t "$session_name"
+#         fi
+#
+#
+#
         fi
-    fi
 fi
 
+
+t1() {
+    tmux new-session -s "$session_name"
+}
 
 
 tmux-s() {
@@ -137,8 +146,9 @@ tmux-s() {
 
 
 ##################### TMUX _SESSION
+PATH="$PATH":"$HOME/.local/bin/"
+bind '"\C-f":"tmux-sessionizer\n"'
 
-# bind '"\C-p":"~/tmux-sessionizer\n"'
 #
 #
 

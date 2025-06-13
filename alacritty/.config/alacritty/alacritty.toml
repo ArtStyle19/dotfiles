@@ -62,4 +62,5 @@ style = "Italic"
 [window]
 # opacity = 0.5
 padding = { x = 40, y = 35}
+dimensions = { columns = 140, lines = 35 }
 
