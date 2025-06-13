@@ -105,8 +105,7 @@ pre="代表"
 
 session_name="$pre - vicari"
 
-
-# Auto-start tmux session named 'vicari-home' if not already in tmux
+# AUTO START CODE - TMUX in a vscode project
 if [ -z "$TMUX" ]; then
     if [ "$TERM_PROGRAM" = "vscode" ]; then
         session_name="VSCODE - $(basename "$PWD")"
@@ -115,6 +114,7 @@ if [ -z "$TMUX" ]; then
         else
             tmux attach -t "$session_name"
         fi
+# Auto-start tmux session named 'vicari-home' if not already in tmux
 #     else
 #         session_name="$pre - vicari"
 #         if ! tmux has-session -t "$session_name" 2>/dev/null; then
