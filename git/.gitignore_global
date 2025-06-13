@@ -1,5 +1,5 @@
 # ----------------
-# OS-Specific
+ OS-Specific
 # ----------------
 # .DS_Store
 # Thumbs.db
@@ -114,5 +114,5 @@ node_modules/
 # .lock-wscript
 # .envrc
 *.env
-*.local
+# *.local
 
