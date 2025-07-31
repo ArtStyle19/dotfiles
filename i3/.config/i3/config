@@ -253,7 +253,7 @@ exec --no-startup-id picom ---legacy-backends -config ~/.config/picom/picom.conf
 
 ### no title
 
-for_window [class=".*"] border none
+# for_window [class=".*"] border none
 for_window [class="^.*"] border pixel 2
 
 ## polybar
@@ -264,8 +264,9 @@ exec_always --no-startup-id bash -c "killall -q polybar; polybar vicari"
 
 ## wallpaper
 
-# exec feh --bg-scale ~/Downloads/wallpaper/winter_reflections_2-wallpaper-3840x2160.jpg
+#exec feh --bg-scale ~/wallpapers/winter_reflections_2-wallpaper-3840x2160.jpg
 exec feh --bg-scale ~/wallpapers/osaka-nightlife3.jpg
+
 
 
 ## exec vicari

@@ -57,16 +57,16 @@ endif
  " highlight SignColumn ctermbg=black guibg=black 
  " highlight VertSplit ctermbg=black guibg=black 
 "
-highlight Normal ctermbg=black guibg=#001412
-highlight NonText ctermbg=black guibg=#001412
+highlight Normal ctermbg=black guibg=#001417
+highlight NonText ctermbg=black guibg=#001417
 " highlight LineNr ctermbg=white guibg=#001412 
-highlight LineNr ctermbg=white guibg=#001412 guifg=#ffffaa
-highlight SignColumn ctermbg=white guibg=#001412
+highlight LineNr ctermbg=white guibg=#00141A guifg=#ffffaa
+highlight SignColumn ctermbg=white guibg=#001417
 highlight VertSplit ctermbg=black guibg=black
 highlight CursorLine ctermbg=black guibg=black
 highlight CursorColumn ctermbg=black guibg=black 
 highlight ColorColumn ctermbg=black guibg=black 
-highlight EndOfBuffer ctermbg=black guibg=#001412
+highlight EndOfBuffer ctermbg=black guibg=#001417
 
 
 """" TEST sync files

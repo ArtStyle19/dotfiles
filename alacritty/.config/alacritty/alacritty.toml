@@ -4,11 +4,12 @@
 
 [colors.primary]
   # Default colors
-    background = '#001213'
+    # background = '#001213'
+    background = '#001417'
+    #00141A
     # background = '0x002221'
     # foreground = '#ffffff'
     foreground = '0xe6f8f8'
-
 # Default colors
 
 #[colors.primary]
@@ -62,5 +63,6 @@ style = "Italic"
 [window]
 # opacity = 0.5
 padding = { x = 40, y = 35}
-dimensions = { columns = 140, lines = 35 }
+# dimensions = { columns = 140, lines = 35 }
+dimensions = { columns = 80, lines = 20 }
 

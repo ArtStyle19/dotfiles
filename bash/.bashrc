@@ -105,28 +105,29 @@ pre="代表"
 
 session_name="$pre - vicari"
 
-# AUTO START CODE - TMUX in a vscode project
-if [ -z "$TMUX" ]; then
-    if [ "$TERM_PROGRAM" = "vscode" ]; then
-        session_name="VSCODE - $(basename "$PWD")"
-        if ! tmux has-session -t "$session_name" 2>/dev/null; then
-            tmux new-session -s "$session_name"
-        else
-            tmux attach -t "$session_name"
-        fi
-# Auto-start tmux session named 'vicari-home' if not already in tmux
-#     else
-#         session_name="$pre - vicari"
+# # AUTO START CODE - TMUX in a vscode project
+# if [ -z "$TMUX" ]; then
+#     if [ "$TERM_PROGRAM" = "vscode" ]; then
+#         # session_name="VSCODE - $(basename "$PWD")"
+#         session_name="$pre - $(basename "$PWD")"
 #         if ! tmux has-session -t "$session_name" 2>/dev/null; then
 #             tmux new-session -s "$session_name"
 #         else
 #             tmux attach -t "$session_name"
 #         fi
-#
-#
-#
-        fi
-fi
+# # Auto-start tmux session named 'vicari-home' if not already in tmux
+# #     else
+# #         session_name="$pre - vicari"
+# #         if ! tmux has-session -t "$session_name" 2>/dev/null; then
+# #             tmux new-session -s "$session_name"
+# #         else
+# #             tmux attach -t "$session_name"
+# #         fi
+# #
+# #
+# #
+#         fi
+# fi
 
 
 t1() {
@@ -134,8 +135,9 @@ t1() {
 }
 
 
-tmux-s() {
-    session_name="PROJECT - $(basename "$PWD")"
+tx() {
+    #session_name="PROJECT - $(basename "$PWD")"
+    session_name="$pre - $(basename "$PWD")"
     #session_name="$("$PWD")"
     if ! tmux has-session -t "$session_name" 2>/dev/null; then
         tmux new-session -s "$session_name"
@@ -157,3 +159,9 @@ alias clean-tmux='rm /home/vicari/.local/share/tmux/resurrect/tmux_*'
 
 
 
+
+
+#################### JAVA PATH
+
+export JAVA_HOME=/home/vicari/.jdks/ms-21.0.7
+export PATH=$JAVA_HOME/bin:$PATH
