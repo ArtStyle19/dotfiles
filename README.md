@@ -37,14 +37,12 @@ Repositorio de configuración para mi entorno de desarrollo en Linux. Incluye **
 
 ## 🖼️ Vista Previa del Escritorio
 
-| Escritorio                   | Alacritty + Neovim           | Tmux + i3                    | Polybar + Wallpaper          |
-| ---------------------------- | ---------------------------- | ---------------------------- | ---------------------------- |
-| ![](readme-images/img01.jpg) | ![](readme-images/img02.jpg) | ![](readme-images/img03.jpg) | ![](readme-images/img04.jpg) |
-
-Más ejemplos:
-
-| Blur + Picom                 | LunarVim                     | ArchInfo Script              |
-| ---------------------------- | ---------------------------- | ---------------------------- |
-| ![](readme-images/img05.jpg) | ![](readme-images/img06.jpg) | ![](readme-images/img07.jpg) |
-
----
+| Título   | Imagen                       |
+| -------- | ---------------------------- |
+| Imagen 1 | ![](readme-images/img01.jpg) |
+| Imagen 2 | ![](readme-images/img02.jpg) |
+| Imagen 3 | ![](readme-images/img03.jpg) |
+| Imagen 4 | ![](readme-images/img04.jpg) |
+| Imagen 5 | ![](readme-images/img05.jpg) |
+| Imagen 6 | ![](readme-images/img06.jpg) |
+| Imagen 7 | ![](readme-images/img07.jpg) |
