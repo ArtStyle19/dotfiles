@@ -1,48 +1,57 @@
-# 🛠️ .dotfiles — Setup Personalizado de GNU/Linux
+# 🛠️ .dotfiles — Personalized GNU/Linux Setup
 
-## 👤 Jorge Guillermo Olarte Quispe
+## Jorge Guillermo Olarte Quispe
 
-## 🐧 Distro: Fedora Linux
+## Distro: Fedora Linux
 
-## 🖥️ WM: i3-spin + Polybar + Picom
+## Window Manager: i3-spin + Polybar + Picom
 
-## 🎨 Estilo: Solarized Osaka
+## Style: Solarized Osaka
 
-Repositorio de configuración para mi entorno de desarrollo en Linux. Incluye **scripts**, **temas**, **configuraciones visuales** y herramientas productivas.
-
----
-
-## 📦 Estructura del Repositorio
-
-| Carpeta             | Descripción                                            |
-| ------------------- | ------------------------------------------------------ |
-| `alacritty/`        | Configuración de la terminal GPU-accelerated Alacritty |
-| `bash/`             | Aliases, prompt y configuración para bash              |
-| `git/`              | Git config global personalizada                        |
-| `gtk-3.0/`          | Theming GTK para aplicaciones gráficas                 |
-| `i3/`               | Configuración de i3-spin, binds, scripts de arranque   |
-| `libinput/`         | Configuración de touchpad y trackpad                   |
-| `lvim/`             | LunarVim y configuración avanzada de Neovim            |
-| `omp/`              | Oh My Posh                                             |
-| `picom/`            | Transparencia, blur y compositor de ventanas           |
-| `polybar/`          | Panel superior con módulos personalizados              |
-| `scripts/`          | Scripts                                                |
-| `tmux/`             | Multiplexor de terminal para sesiones persistentes     |
-| `vim/`              | Configuración clásica de Vim                           |
-| `wallpapers/`       | Wallpapers curados para el escritorio                  |
-| `bash_installer.sh` | Instalador automatizado de configuraciones             |
-| `readme-images/`    | Capturas de pantalla para mostrar el entorno           |
+Minimal and highly customizable development environment for GNU/Linux.  
+Includes configuration files for terminal tools, a tiling window manager, aesthetic theming, and scripting to boost productivity and workflow.
 
 ---
 
-## 🖼️ Vista Previa del Escritorio
+## Repository Structure
 
-| Título   | Imagen                       |
-| -------- | ---------------------------- |
-| Imagen 1 | ![](readme-images/img01.jpg) |
-| Imagen 2 | ![](readme-images/img02.jpg) |
-| Imagen 3 | ![](readme-images/img03.jpg) |
-| Imagen 4 | ![](readme-images/img04.jpg) |
-| Imagen 5 | ![](readme-images/img05.jpg) |
-| Imagen 6 | ![](readme-images/img06.jpg) |
-| Imagen 7 | ![](readme-images/img07.jpg) |
+| Folder              | Description                                                 |
+| ------------------- | ----------------------------------------------------------- |
+| `alacritty/`        | Alacritty terminal configuration (GPU-accelerated)          |
+| `bash/`             | Aliases, prompt, and shell settings for Bash                |
+| `git/`              | Custom global Git configuration                             |
+| `gtk-3.0/`          | GTK theming for graphical applications                      |
+| `i3/`               | i3-spin WM settings, keybindings, and autostart scripts     |
+| `libinput/`         | Touchpad and trackpad sensitivity/tuning                    |
+| `lvim/`             | LunarVim + extended Neovim configuration                    |
+| `omp/`              | Oh My Posh prompt customization                             |
+| `picom/`            | Window compositor (transparency, blur, shadows)             |
+| `polybar/`          | Top bar with custom modules and styles                      |
+| `scripts/`          | Utility scripts                                             |
+| `tmux/`             | Terminal multiplexer (persistent sessions, custom bindings) |
+| `vim/`              | Classic Vim setup (fallback or minimalist use)              |
+| `wallpapers/`       | Curated collection of wallpapers for desktop theming        |
+| `bash_installer.sh` | Bash script for automatic config deployment                 |
+| `readme-images/`    | Screenshots used in this README file                        |
+
+---
+
+## Desktop Preview
+
+| Title   | Image                        |
+| ------- | ---------------------------- |
+| Image 1 | ![](readme-images/img01.jpg) |
+| Image 2 | ![](readme-images/img02.jpg) |
+| Image 3 | ![](readme-images/img03.jpg) |
+| Image 4 | ![](readme-images/img04.jpg) |
+| Image 5 | ![](readme-images/img05.jpg) |
+| Image 6 | ![](readme-images/img06.jpg) |
+| Image 7 | ![](readme-images/img07.jpg) |
+
+---
+
+## Summary
+
+From a fast terminal setup to a tiled WM with blur and transparency, every dotfile is built with **efficiency and aesthetics in mind**.
+
+Feel free to fork or adapt any part of this setup for your own use
