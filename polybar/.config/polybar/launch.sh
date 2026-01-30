@@ -7,11 +7,12 @@ while pgrep -u "$UID" -x polybar >/dev/null; do sleep 0.2; done
 primary=$(polybar --list-monitors | awk '/primary/ {print $1}' | sed 's/://')
 [ -z "$primary" ] && primary=$(polybar --list-monitors | head -n1 | cut -d: -f1)
 
+
 for m in $(polybar --list-monitors | cut -d: -f1); do
   if [ "$m" = "$primary" ]; then
-    TRAY_POS=right SCREEN_LABEL="LAP" MONITOR="$m" polybar vicari &
+    MONITOR="$m" polybar vicari &
   else
-    TRAY_POS=none  SCREEN_LABEL="EXT" MONITOR="$m" polybar vicari &
+    MONITOR="$m" polybar vicari_notray &
   fi
 done
 
