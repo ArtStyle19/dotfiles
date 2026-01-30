@@ -265,7 +265,8 @@ exec_always --no-startup-id bash -c "killall -q polybar; polybar vicari"
 ## wallpaper
 
 #exec feh --bg-scale ~/wallpapers/winter_reflections_2-wallpaper-3840x2160.jpg
-exec feh --bg-scale ~/wallpapers/osaka-nightlife3.jpg
+#exec feh --bg-scale ~/wallpapers/osaka-nightlife3.jpg
+exec_always --no-startup-id feh --bg-scale ~/wallpapers/osaka-nightlife3.jpg
 
 
 
@@ -291,4 +292,15 @@ for_window [class="org.mozilla.firefox"] layout tabbed
 for_window [class="Code"] layout tabbed
 for_window [class="Virt-manager"] layout tabbed
 
+
+
+############################ MONITOR workspaces
+
+bindsym $mod+Shift+o move workspace to output HDMI-0
+bindsym $mod+Shift+p move workspace to output DP-2
+
+
+
+###########################
+# bindsym $mod+Shift+o scratchpad show
 

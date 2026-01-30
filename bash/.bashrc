@@ -165,3 +165,23 @@ alias clean-tmux='rm /home/vicari/.local/share/tmux/resurrect/tmux_*'
 
 export JAVA_HOME=/home/vicari/.jdks/ms-21.0.7
 export PATH=$JAVA_HOME/bin:$PATH
+
+
+
+
+################### Laravel Path
+
+export PATH="$PATH:~/.config/composer/vendor/bin"
+
+
+
+################### Proxy
+#export http_proxy="http://172.17.176.16:3128"
+#export https_proxy="http://172.17.176.16:3128"
+#export ftp_proxy="http://172.17.176.16:3128"
+#export no_proxy="localhost,127.0.0.1"
+
+# CUDA Configuration
+export CUDA_HOME=/usr/local/cuda
+export PATH=$CUDA_HOME/bin:$PATH
+export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH

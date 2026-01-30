@@ -3,7 +3,7 @@
     email = lolmko0178@gmail.com
 
 [core]
-    editor = nvim
+	editor = code --wait
     excludesfile = ~/.gitignore_global
 
 [init]
@@ -13,3 +13,5 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[pull]
+	rebase = false

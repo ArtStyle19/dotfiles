@@ -50,6 +50,8 @@ Includes configuration files for terminal tools, a tiling window manager, aesthe
 
 ---
 
+`
+
 ## Summary
 
 From a fast terminal setup to a tiled WM with blur and transparency, every dotfile is built with **efficiency and aesthetics in mind**.
