@@ -258,7 +258,11 @@ for_window [class="^.*"] border pixel 2
 
 ## polybar
 # exec_always --no-startup-id polybar vicari
-exec_always --no-startup-id bash -c "killall -q polybar; polybar vicari"
+# exec_always --no-startup-id bash -c "killall -q polybar; polybar vicari"
+
+## Multimonitor
+exec_always --no-startup-id ~/.config/polybar/launch.sh
+
 
 
 
